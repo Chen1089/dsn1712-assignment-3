@@ -4,6 +4,14 @@ body {
     margin: 0;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
 /* Header*/
 .wrapper {
     max-width: 940px;
@@ -62,14 +70,10 @@ header a {
 }
 
 /* About Me */
-#about-me {
-    padding: 1em 0;
-}
 
 .about-layout {
     display: flex;
     gap: 2em;
-    align-items: flex-end;
 }
 
 .about-text {
@@ -81,6 +85,7 @@ header a {
   width: 33.333%;
   display: block;
   height: auto;
+  align-self: flex-end;
 }
 
 /* Services */
